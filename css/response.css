@@ -1,0 +1,47 @@
+
+@media (max-width: 1300px) {
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    main .hero .relative.container{
+    flex-direction: column;
+    z-index: 2;
+    margin: 0px 20px;
+    }
+    header .navbar .container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    }
+    main .hero .container{
+        align-items: center;
+    }
+    main .hero .hero-image {
+        min-width: 350px;
+        width: 80%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    main .hero .relative.container{
+    flex-direction: row;
+    z-index: 2;
+    margin: 0px 20px;
+    }
+    header .navbar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+    }
+    main .hero .container{
+        align-items: start;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {}
+
+@media (min-width: 993px) and (max-width: 1300px) {}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}
