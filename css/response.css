@@ -1,5 +1,22 @@
 
 @media (max-width: 1300px) {
+    main .hero .relative.container{
+    flex-direction: column;
+    z-index: 2;
+    margin: 0px 20px;
+    }
+    header .navbar .container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    }
+    main .hero .container{
+        align-items: center;
+    }
+    main .hero .hero-image {
+        min-width: 300px;
+        width: 80%;
+    }
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -17,7 +34,7 @@
         align-items: center;
     }
     main .hero .hero-image {
-        min-width: 350px;
+        min-width: 300px;
         width: 80%;
     }
 }
