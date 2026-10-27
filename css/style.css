@@ -60,10 +60,10 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    height: 100vh;
 }
 .hero::before{
     content: "";
@@ -101,8 +101,8 @@ img{
     color: #000;
 }
 .hero .hero-image{
-    width: 450px;
-    max-width: 450px;
+    width: 400px;
+    max-width: 400px;
 }
 .hero .hero-image img{
     border-radius: 100%;

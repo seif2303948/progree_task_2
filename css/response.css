@@ -4,6 +4,7 @@
     flex-direction: column;
     z-index: 2;
     margin: 0px 20px;
+    align-items: center;
     }
     header .navbar .container{
     display: flex;
@@ -12,7 +13,9 @@
     }
     main .hero .container{
         align-items: center;
+        text-align: center;
     }
+    
     main .hero .hero-image {
         min-width: 300px;
         width: 80%;
@@ -54,10 +57,15 @@
     }
     main .hero .container{
         align-items: start;
+        text-align: start;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1300px) {}
+@media (min-width: 769px) and (max-width: 1300px) {
+    main .hero .container{
+        text-align: start;
+    }
+}
 
 @media (min-width: 993px) and (max-width: 1300px) {}
 
